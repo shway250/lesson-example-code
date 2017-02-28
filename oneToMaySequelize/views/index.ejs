@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All that posts</title>
+</head>
+<body>
+  <h1>Post will go under here</h1>
+  <% result.forEach(function(result){%>
+    <h2><%= result.title %></h2>
+    <p><%= result.content %></p>
+    <p><%= result.author.name %></p>
+  <%})%>
+</body>
+</html>
